@@ -121,10 +121,10 @@ architecture bhv of datapath is
     
     data_mux_1 : data_mux port map (
       clk => clk,
-      data_in_A => splitter_out,
+      data_in_A => data_in,
       data_in_B => xor_out,
       data_in_C => shifter_out,
-      data_in_D => data_in,
+      data_in_D => splitter_out,
       data_mux_ctrl => data_mux_control,
       data_out => data_out
     );
