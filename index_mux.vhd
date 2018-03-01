@@ -2,9 +2,9 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.all;
  
 entity data_mux is
- port(data_in_a, data_in_b : in STD_LOGIC_VECTOR(1 downto 0);
+ port(data_in_a, data_in_b : in STD_LOGIC_VECTOR(7 downto 0);
      data_mux_ctrl: in STD_LOGIC;
-     data_out: out STD_LOGIC_VECTOR(1 downto 0)
+     data_out: out STD_LOGIC_VECTOR(7 downto 0)
   );
 end data_mux;
  

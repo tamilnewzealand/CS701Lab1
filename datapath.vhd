@@ -64,7 +64,7 @@ architecture bhv of datapath is
   
   component data_mux
     port(clk : in std_logic;
-      data_in_A, data_in_B, data_in_C, data_in_D : in std_logic_vector(7 downto 0);
+      data_in_a, data_in_b, data_in_c, data_in_d : in std_logic_vector(7 downto 0);
       data_mux_ctrl : in std_logic_vector(1 downto 0);
       data_out : out std_logic_vector(7 downto 0));
   end component;
