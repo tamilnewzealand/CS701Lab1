@@ -15,7 +15,7 @@ L4
 VzcOPiK>CJeV0<C3EO>HSg0
 Z6 OV;C;10.1d;51
 32
-Z7 !s108 1519939839.758000
+Z7 !s108 1519940661.726000
 Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/index_mux.vhd|
 Z9 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/index_mux.vhd|
 Z10 o-work work -2002 -explicit -O0
@@ -46,16 +46,16 @@ Z15 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
 R1
 R2
 R3
-Z16 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/datapath.vhd
-Z17 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/datapath.vhd
+Z16 8C:\Users\mark_\Documents\COMPSYS 701\CS701Lab1\datapath.vhd
+Z17 FC:\Users\mark_\Documents\COMPSYS 701\CS701Lab1\datapath.vhd
 l0
 L6
 Vi4:AiQ_1KHah[fT>MK<fo0
 R6
 32
-Z18 !s108 1519939839.447000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/datapath.vhd|
-Z20 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/datapath.vhd|
+Z18 !s108 1519940661.436000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mark_\Documents\COMPSYS 701\CS701Lab1\datapath.vhd|
+Z20 !s107 C:\Users\mark_\Documents\COMPSYS 701\CS701Lab1\datapath.vhd|
 R10
 R11
 !s100 S@YodezeTmhiczNGC>5T<0
@@ -94,7 +94,7 @@ L6
 Vl@PH1DlFM6YR[DX4mXlW<2
 R6
 32
-Z24 !s108 1519939839.617000
+Z24 !s108 1519940661.577000
 Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/incrementer.vhd|
 Z26 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/incrementer.vhd|
 R10
@@ -120,6 +120,47 @@ R10
 R11
 !s100 BVJ@C_j7`AEij:a3:G^BR3
 !i10b 1
+Eip_block
+Z27 w1519940658
+R13
+R14
+R15
+R1
+R2
+R3
+Z28 8C:\Users\mark_\Documents\COMPSYS 701\CS701Lab1\ip_block.vhd
+Z29 FC:\Users\mark_\Documents\COMPSYS 701\CS701Lab1\ip_block.vhd
+l0
+L6
+VefkBNR]3b?I=E5eh@i1f43
+!s100 4Y<67>RoQZ?@LEZ6M@ODE1
+R6
+32
+!i10b 1
+Z30 !s108 1519940662.459000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mark_\Documents\COMPSYS 701\CS701Lab1\ip_block.vhd|
+Z32 !s107 C:\Users\mark_\Documents\COMPSYS 701\CS701Lab1\ip_block.vhd|
+R10
+R11
+Abhv
+R13
+R14
+R15
+R1
+R2
+DEx4 work 8 ip_block 0 22 efkBNR]3b?I=E5eh@i1f43
+l35
+L14
+Vb?B@Xb1NB;:`<nfYGJgjc2
+!s100 9Zhk<VGM2Nnjj8A<cdGCl2
+R6
+32
+!i10b 1
+R30
+R31
+R32
+R10
+R11
 Eregist
 R12
 R13
@@ -128,16 +169,16 @@ R15
 R1
 R2
 R3
-Z27 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/regist.vhd
-Z28 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/regist.vhd
+Z33 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/regist.vhd
+Z34 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/regist.vhd
 l0
 L6
 VfNoK;T;=RfW:]Sg2Nm`Rm1
 R6
 32
-Z29 !s108 1519939839.892000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/regist.vhd|
-Z31 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/regist.vhd|
+Z35 !s108 1519940661.888000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/regist.vhd|
+Z37 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/regist.vhd|
 R10
 R11
 !s100 I5Cj`a;FffOCX5_Izb@802
@@ -154,9 +195,9 @@ L13
 V6IF5E]iNGQlJEIgC8Rn;W3
 R6
 32
-R29
-R30
-R31
+R35
+R36
+R37
 R10
 R11
 !s100 LQ42No0imbc8zEiiG[D4i3
@@ -169,16 +210,16 @@ R15
 R1
 R2
 R3
-Z32 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/shifter.vhd
-Z33 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/shifter.vhd
+Z38 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/shifter.vhd
+Z39 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/shifter.vhd
 l0
 L6
 VDVzVD26=zYAVmF3LJe92f3
 R6
 32
-Z34 !s108 1519939840.026000
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/shifter.vhd|
-Z36 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/shifter.vhd|
+Z40 !s108 1519940662.025000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/shifter.vhd|
+Z42 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/shifter.vhd|
 R10
 R11
 !s100 KaVQ>BdXUg9f[V3GEYK5;3
@@ -195,9 +236,9 @@ L12
 V9XReF>IVd9Ec3z`Gkl<7n2
 R6
 32
-R34
-R35
-R36
+R40
+R41
+R42
 R10
 R11
 !s100 bHeWQMSdnk?NH[mfcE:K53
@@ -210,16 +251,16 @@ R15
 R1
 R2
 R3
-Z37 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/splitter.vhd
-Z38 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/splitter.vhd
+Z43 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/splitter.vhd
+Z44 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/splitter.vhd
 l0
 L6
 V^AlMPo?Ud52LjlNNJTToV1
 R6
 32
-Z39 !s108 1519939840.166000
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/splitter.vhd|
-Z41 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/splitter.vhd|
+Z45 !s108 1519940662.170000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/splitter.vhd|
+Z47 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/splitter.vhd|
 R10
 R11
 !s100 AGijN`bDm643:eH9ZO56M0
@@ -236,9 +277,9 @@ L13
 VP=^:c1m]d6GSe1^6>FUMV2
 R6
 32
-R39
-R40
-R41
+R45
+R46
+R47
 R10
 R11
 !s100 ]Di26iI`eQGe3ZJ:YoCDc3
@@ -251,20 +292,20 @@ R15
 R1
 R2
 R3
-Z42 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/xor_gate.vhd
-Z43 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/xor_gate.vhd
+Z48 8C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/xor_gate.vhd
+Z49 FC:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/xor_gate.vhd
 l0
 L6
 VZMYb74H6_Q>VJk<XfYbM^1
-!s100 e40^PmI^HIh3R^iVBlON<3
 R6
 32
-!i10b 1
-Z44 !s108 1519939840.291000
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/xor_gate.vhd|
-Z46 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/xor_gate.vhd|
+Z50 !s108 1519940662.326000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/xor_gate.vhd|
+Z52 !s107 C:/Users/mark_/Documents/COMPSYS 701/CS701Lab1/xor_gate.vhd|
 R10
 R11
+!s100 e40^PmI^HIh3R^iVBlON<3
+!i10b 1
 Abehaviour
 R13
 R14
@@ -278,9 +319,9 @@ VjEBkKjEWznOH3foBk_PEi1
 !s100 AE^=o?hSlQgdD_a]0OlnD3
 R6
 32
-!i10b 1
-R44
-R45
-R46
+R50
+R51
+R52
 R10
 R11
+!i10b 1
