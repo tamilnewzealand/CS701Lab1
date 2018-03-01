@@ -20,15 +20,7 @@ Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
 -- Compiling entity fsm
 -- Compiling architecture beh of fsm
 
-} {} {}} //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/data_mux.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/data_mux.vhd
-Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity data_mux
--- Compiling architecture bhv of data_mux
-
-} {} {}} //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/test_bench.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/test_bench.vhd
+} {} {}} //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/datapath.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/datapath.vhd
 Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -36,8 +28,16 @@ Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_UNSIGNED
 -- Loading package NUMERIC_STD
--- Compiling entity test_bench
--- Compiling architecture test of test_bench
+-- Compiling entity datapath
+-- Compiling architecture bhv of datapath
+
+} {} {}} //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/data_mux.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/data_mux.vhd
+Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity data_mux
+-- Compiling architecture bhv of data_mux
 
 } {} {}} //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/splitter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/splitter.vhd
 Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
@@ -77,8 +77,8 @@ Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity data_mux
--- Compiling architecture bhv of data_mux
+-- Compiling entity index_mux
+-- Compiling architecture bhv of index_mux
 
 } {} {}} //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/shifter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //uoa.auckland.ac.nz/engdfs/home/isuk218/Downloads/CS701Lab1/shifter.vhd
 Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015

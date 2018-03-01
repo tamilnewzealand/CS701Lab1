@@ -28,7 +28,7 @@ entity test_bench is
                 -- enable signal
                 t_Enable <= '0', '1' after 90 ns, '0' after 240 ns;
                 t_machine_code <= "100", "100" after 30 ns, "101" after 60 ns, "110" after 90 ns, "011" after 120 ns, "010" after 150 ns, "001" after 180 ns, "000" after 210 ns;
-                t_data_in <= X"22", X"33" after 60 ns, X"44" after 90 ns, X"66" after 120 ns;
+                t_data_in <= X"22", X"33" after 60 ns, X"44" after 90 ns, X"66" after 90 ns;
                 wait;
             end process init;
 

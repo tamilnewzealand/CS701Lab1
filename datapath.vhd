@@ -56,15 +56,13 @@ architecture bhv of datapath is
   end component;
   
   component index_mux
-    port(clk : in std_logic;
-      data_in_A, data_in_B : in std_logic_vector(7 downto 0);
+    port(data_in_A, data_in_B : in std_logic_vector(7 downto 0);
       data_mux_ctrl : in std_logic;
       data_out : out std_logic_vector(7 downto 0));
   end component;
   
   component data_mux
-    port(clk : in std_logic;
-      data_in_a, data_in_b, data_in_c, data_in_d : in std_logic_vector(7 downto 0);
+    port(data_in_a, data_in_b, data_in_c, data_in_d : in std_logic_vector(7 downto 0);
       data_mux_ctrl : in std_logic_vector(1 downto 0);
       data_out : out std_logic_vector(7 downto 0));
   end component;
@@ -92,7 +90,6 @@ architecture bhv of datapath is
     );
     
     index_mux_1 : index_mux port map (
-      clk => clk,
       data_in_A => data_in,
       data_in_B => incrementer_out,
       data_mux_ctrl => index_mux_control,
@@ -120,7 +117,6 @@ architecture bhv of datapath is
     );
     
     data_mux_1 : data_mux port map (
-      clk => clk,
       data_in_A => data_in,
       data_in_B => xor_out,
       data_in_C => shifter_out,

@@ -1,14 +1,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
  
-entity data_mux is
+entity index_mux is
  port(data_in_a, data_in_b : in STD_LOGIC_VECTOR(7 downto 0);
      data_mux_ctrl: in STD_LOGIC;
      data_out: out STD_LOGIC_VECTOR(7 downto 0)
   );
-end data_mux;
+end index_mux;
  
-architecture bhv of data_mux is
+architecture bhv of index_mux is
 begin
 process (data_in_a, data_in_b, data_mux_ctrl) is
 begin
